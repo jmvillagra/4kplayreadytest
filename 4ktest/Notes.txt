@@ -1,0 +1,2 @@
+﻿Playready 3.0 server
+http://playready.azurewebsites.net/Home/TestService
