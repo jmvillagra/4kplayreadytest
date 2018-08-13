@@ -7,11 +7,11 @@
   xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap mp uap3">
 
   <Identity
-    Name="46e25f4b-a248-4b96-8449-0c9e30be6443"
+    Name="46e25f4b-a248-4b96-8449-0c9e30be6445"
     Publisher="CN=jose"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="46e25f4b-a248-4b96-8449-0c9e30be6443" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="46e25f4b-a248-4b96-8449-0c9e30be6445" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>4ktest</DisplayName>

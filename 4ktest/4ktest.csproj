@@ -100,7 +100,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MediaPlayerExtensions.cs" />
-    <Compile Include="PlayReadyHelper.cs" />
+    <Compile Include="PlayReadyHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

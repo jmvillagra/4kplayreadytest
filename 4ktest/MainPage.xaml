@@ -14,6 +14,7 @@
         <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
 
             <StackPanel Orientation="Vertical" Background="White" Padding="12" Margin="12">
+                <CheckBox x:Name="cbHardwareDRM" Content="Force Hardware DRM" IsChecked="False" />
                 <TextBox x:Name="txtLicenseOverride" PlaceholderText="Optional playready license url override (ex: http://test.playready.microsoft.com/service/rightsmanager.asmx)" Width="760" />
                 <StackPanel Orientation="Horizontal" Margin="0 12 0 0">
                     <TextBox x:Name="txtStreamUrl" PlaceholderText="Stream url..." Width="360" />
@@ -27,7 +28,6 @@
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
-                    <RowDefinition Height="20" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="160"  />
@@ -37,14 +37,11 @@
                 <TextBlock Grid.Row="1"  Text="Security Level:" />
                 <TextBlock Grid.Row="1" Grid.Column="1" x:Name="txtSL" />
 
-                <TextBlock Grid.Row="2" Text="Security Version:" />
-                <TextBlock Grid.Row="2" Grid.Column="1" x:Name="txtSecurity"/>
+                <TextBlock Grid.Row="2"  Text="Has Hardware DRM:" />
+                <TextBlock Grid.Row="2" Grid.Column="1" x:Name="txtHasHardwareDRM"/>
 
-                <TextBlock Grid.Row="3"  Text="Has Hardware DRM:" />
-                <TextBlock Grid.Row="3" Grid.Column="1" x:Name="txtHasHardwareDRM"/>
-
-                <TextBlock Grid.Row="4"  Text="Has HEVC Support:" />
-                <TextBlock Grid.Row="4" Grid.Column="1" x:Name="txtHasHEVCSupport"/>
+                <TextBlock Grid.Row="3"  Text="Has HEVC Support:" />
+                <TextBlock Grid.Row="3" Grid.Column="1" x:Name="txtHasHEVCSupport"/>
             </Grid>
 
         </StackPanel>
